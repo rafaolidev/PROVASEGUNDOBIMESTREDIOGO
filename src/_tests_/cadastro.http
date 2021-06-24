@@ -1,0 +1,9 @@
+POST http://localhost:3000/pessoa/cadastrar
+Content-Type:application/json
+
+{
+    "nome":"Rafael",
+    "cpf":"8943815659615",
+    "anonasce":"1987"
+}
+##
