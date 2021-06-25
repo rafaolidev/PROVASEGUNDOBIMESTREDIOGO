@@ -1,0 +1,31 @@
+
+
+<form class="example-form">
+    <table class="example-full-width" cellspacing="0">
+        <tr>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Nome</mat-label>
+                    <input matInput type="text" name="nome" [(ngModel)]="pessoa.nome">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>CPF</mat-label>
+                    <input matInput type="text" name="cpf" [(ngModel)]="pessoa.cpf">
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+    <p>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Idade</mat-label>
+            <input matInput placeholder="Sua idade no formato 00/00/0000" input type="text" name="anonasce"
+                [(ngModel)]="pessoa.anonasce">
+        </mat-form-field>
+    </p>
+    <button (click)="cadastrar()">
+        Cadastro
+    </button>
+    <a  class="novocadastro" routerLink="">Voltar para Lista</a>
+</form>

@@ -1,0 +1,28 @@
+
+<table class="tabela">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pessoa of pessoas">
+            <td>
+                {{pessoa._id}}
+            </td>
+            <td>
+                {{pessoa.nome}}
+            </td>
+            <td>
+                {{pessoa.cpf}}
+            </td>
+            <td>
+                {{pessoa.anonasce}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+<a class="cadastro" routerLink="/pessoa/cadastrar">Cadastro</a>

@@ -1,0 +1,30 @@
+button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    color: gray;
+    font-size: 22px;
+}
+.novocadastro{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    color: gray;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: lightgray;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+.novocadastro a{
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+}
